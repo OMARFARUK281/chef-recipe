@@ -1,8 +1,8 @@
 import React from "react";
 import Header from "../pages/Header/Header";
 import { Col, Container, Row } from "react-bootstrap";
-import LeftNav from "../pages/ChefList/ChefList";
 import RightNav from "../pages/RightNav/RightNav";
+import ChefList from "../pages/ChefList/ChefList";
 
 const Chef_Foods = () => {
   return (
@@ -10,8 +10,8 @@ const Chef_Foods = () => {
       <Header></Header>
       <Container>
         <Row>
-          <Col lg={8}>
-            <LeftNav></LeftNav>
+          <Col lg={9}>
+            <ChefList></ChefList>
           </Col>
           <Col lg={3}>
             <RightNav></RightNav>
